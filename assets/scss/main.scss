@@ -1,0 +1,18 @@
+//custom scss
+
+//variable overrides
+@import "./abstracts/variables";
+
+//main bootstrap import
+@import "~bootstrap/scss/bootstrap";
+
+//utility overrides (currently N/A)
+
+//CSS root overrides 
+@import "./abstracts/css-variables";
+
+//modified components 
+@import "./modified/modified";
+
+//new components 
+@import "./components/components";
